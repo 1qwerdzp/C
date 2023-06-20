@@ -17,15 +17,15 @@
 	float zl;
 	int akrlf;
 	
-	printf("¡àage:");
+	printf("â–¡age:");
 	scanf("%d", &age);
-	printf("¢Ã%d\n\n¡àÇÐ³â:", age);
+	printf("â–£%d\n\nâ–¡í•™ë…„:", age);
 	scanf("%d", &gkrsus);
-	printf("¢Ã%d\n\n¡à´©±º°¡ÀÇ Å°:", gkrsus);
+	printf("â–£%d\n\nâ–¡ëˆ„êµ°ê°€ì˜ í‚¤:", gkrsus);
 	scanf("%f", &zl);
-	printf("¢Ã%.1f\n\n¡à¸¶¶óÅæ ±æÀÌ:", zl);
+	printf("â–£%.1f\n\nâ–¡ë§ˆë¼í†¤ ê¸¸ì´:", zl);
 	scanf("%d", &akrlf);
-	printf("¢Ã%d", akrlf);
+	printf("â–£%d", akrlf);
 }*/
 
 /*void main() {
@@ -55,9 +55,9 @@
 	float anrp;
 	
 	scanf("%d %d", &ehd, &gh);
-	printf("%dµ¿ %dÈ£\n\n", ehd, gh);
-	scanf("%fcm %f", &zl, &anrp);
-	printf("Å°:%.2fcm ¸ö¹«°Ô:%.2fkg\n\n", zl, anrp);
+	printf("%dë™ %dí˜¸\n\n", ehd, gh);
+	scanf("%fcm %fkg", &zl, &anrp);
+	printf("í‚¤:%.2fcm ëª¸ë¬´ê²Œ:%.2fkg\n\n", zl, anrp);
 }*/
 
 /*void main() {
@@ -65,13 +65,13 @@
 	int dl;
 	float tka;
 	
-	printf("¡àÇÐ¹ø(" "·Î ±¸ºÐ):");
+	printf("â–¡í•™ë²ˆ(" "ë¡œ êµ¬ë¶„):");
 	scanf("%d %d %d", &dlf, &dl, &tka);
-	printf("¢Ã%dÇÐ³â %d¹Ý %d¹ø\n\n³â.¿ù,.ÀÏ:", dlf, dl, tka);
+	printf("â–£%dí•™ë…„ %dë°˜ %dë²ˆ\n\në…„.ì›”,.ì¼:", dlf, dl, tka);
 	scanf("%d.%d.%d", &dlf, &dl, &tka);
-	printf("¢Ã%d³â %d¿ù %dÀÏ\n\nÅÐ½ÇÀÇ ±æÀÌ(m), »ç°ú »óÀÚÀÇ ¹«°Ô(kg):", dlf, dl, tka);
+	printf("â–£%dë…„ %dì›” %dì¼\n\ní„¸ì‹¤ì˜ ê¸¸ì´(m), ì‚¬ê³¼ ìƒìžì˜ ë¬´ê²Œ(kg):", dlf, dl, tka);
 	scanf("%dm, %dkg", &dlf, &dl);
-	printf("ÅÐ½ÇÀÇ ±æÀÌ:%dm\n\n»ç°ú »óÀÚÀÇ ¹«°Ô:%dlf", &dl);
+	printf("í„¸ì‹¤ì˜ ê¸¸ì´:%dm\n\nì‚¬ê³¼ ìƒìžì˜ ë¬´ê²Œ:%dlf", &dl);
 }*/
 
 void main() {
@@ -81,9 +81,9 @@ void main() {
 	char c3;
 	char c4;
 	
-	printf("¹®ÀÚ ÇÏ³ª:");
+	printf("ë¬¸ìž í•˜ë‚˜:");
 	scanf("%c", &c);
-	printf("%c\n5ÀÚ¸® ´Ü¾î:", c);
+	printf("%c\n5ìžë¦¬ ë‹¨ì–´:", c);
 	scanf("%c%c%c%c%c", &c, &c1, &c2, &c3, &c4);
 	printf("=>%c%c%c%c%c\n	", &c, &c1, &c2, &c3, &c4);
 }
