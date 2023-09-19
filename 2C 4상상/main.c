@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
 	srand(time(NULL));
 	
 	for(y=0; y<6; y++){
-		for(x=0; x<7; x++){
+		for(x=0; x<6; x++){
 			a[y][x]=rand()%99+1;
 			i+=a[y][x];
 		}
@@ -53,7 +53,7 @@ int main(int argc, char *argv[]) {
 	y=0;
 	while(y<6){
 		x=0;
-		while(x<7){
+		while(x<6){
 			printf("%3d", a[y][x]);
 			if(n<(a[y][x])){
 				n=a[y][x];
