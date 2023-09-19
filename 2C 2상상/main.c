@@ -3,7 +3,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-//¹İº¹¹®À¸·Î A~Z, a~z Ãâ·Â(32p, 2¹ø) 
+//ë°˜ë³µë¬¸ìœ¼ë¡œ A~Z, a~z ì¶œë ¥(32p, 2ë²ˆ) 
 /*int main(int argc, char *argv[]) {
 	int i;
 	for(i='A'; i+1<=26+'A'; i++){
@@ -16,27 +16,27 @@
 	return 0;
 }*/
 
-//¾Æ½ºÅ°ÄÚµå ¼ıÀÚÀÎ ¹®ÀÚ¸¦ 3°³ ÀÔ·Â¹Ş¾Æ 3ÀÚ¸® Á¤¼ö Ãâ·Â(32p, 3¹ø) 
+//ì•„ìŠ¤í‚¤ì½”ë“œ ìˆ«ìì¸ ë¬¸ìë¥¼ 3ê°œ ì…ë ¥ë°›ì•„ 3ìë¦¬ ì •ìˆ˜ ì¶œë ¥(32p, 3ë²ˆ) 
 /*int main(int argc, char *argv[]) {
 	int i;
 	char c1, c2, c3;
 	
-	printf("ÀÔ·Â: ");
+	printf("ì…ë ¥: ");
 	scanf("%c, %c, %c", &c1, &c2, &c3);
 	i=100*c1+10*c2+c3;
-	printf("\nÃâ·Â: %d", i-5328);
+	printf("\nì¶œë ¥: %d", i-5328);
 	return 0;
 }*/
 //(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR){
-//¾Æ½ºÅ°ÄÚµå ¼ıÀÚÀÎ ¹®ÀÚ ¼Ò¼öÁ¡ ÀÌÇÏ ¼ö¸¦ ÀÔ·Â¹Ş¾Æ ½Ç¼ö Ãâ·Â(32p, 4¹ø)
+//ì•„ìŠ¤í‚¤ì½”ë“œ ìˆ«ìì¸ ë¬¸ì ì†Œìˆ˜ì  ì´í•˜ ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ ì‹¤ìˆ˜ ì¶œë ¥(32p, 4ë²ˆ)
 /*void main(){
 	char c[100];
 	int n=10, i=0;
 	double d=0;
 	
-	printf("ÀÔ·Â: ");
+	printf("ì…ë ¥: ");
 	scanf("%s", c);
-	printf("\nÃâ·Â: ");
+	printf("\nì¶œë ¥: ");
 	while(c[i+2]!=NULL){
 		d+=(c[i]-48)/n;
 		printf("\t%lf\n", c[i]/n);
@@ -46,13 +46,13 @@
 	printf("%lf", d);
 }*/
 //(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)(ERROR)}
-//´Ü¾î ÀÔ·Â¹Ş°í µÚÁı±â(33p, 5¹ø) 
+//ë‹¨ì–´ ì…ë ¥ë°›ê³  ë’¤ì§‘ê¸°(33p, 5ë²ˆ) 
 /*void main(){
 	char str[100];
 	int i=0;
-	printf("ÀÔ·Â: ");
+	printf("ì…ë ¥: ");
 	scanf("%s", str);
-	printf("\nÃâ·Â:");
+	printf("\nì¶œë ¥:");
 	while(str[i]!=NULL){
 		if (str[i]>=97){
 			str[i]-=32;
@@ -60,32 +60,32 @@
 		printf("%c", str[i++]);
 	}
 }*/
-//´Ü¾î ÀÔ·Â¹Ş°í µÚÁı±â(33p, 6¹ø) 
+//ë‹¨ì–´ ì…ë ¥ë°›ê³  ë’¤ì§‘ê¸°(33p, 6ë²ˆ) 
 /*void main(){
 	char str[100];
 	int i=0;
-	printf("ÀÔ·Â: ");
+	printf("ì…ë ¥: ");
 	scanf("%s", str);
-	printf("\nÃâ·Â:");
+	printf("\nì¶œë ¥:");
 	while(str[i]!=NULL)
 		i++;
 	while(i>=0)
 		printf("%c", str[i--]);
 }*/
-//¹®Àå ÀÔ·Â¹Ş°í ´Ü¾îÀÇ °³¼ö Ãâ·Â(33p, 7¹ø) 
+//ë¬¸ì¥ ì…ë ¥ë°›ê³  ë‹¨ì–´ì˜ ê°œìˆ˜ ì¶œë ¥(33p, 7ë²ˆ) 
 void main(){
 	char str[100];
-	int i=0, n=0;
-	printf("ÀÔ·Â ¹®Àå: ");
-	scanf("%s", str);
-	printf("\nÃâ·Â:");
-	while(str[i]!=NULL){
-		printf("\n%d", i);
-		if(i<100){
-			printf("a%da", i);
+	int i=0;
+	int n=0;
+	printf("ì…ë ¥ ë¬¸ì¥:\n");
+	gets(str);
+	printf("\nì¶œë ¥:");
+	while(str[i]!=NULL){0
+		if(str[i]==' '){
 			n++;
 		}
 		i++;
 	}
-	printf("\n%d¹®Àå", n+1);
+	printf("ì…ë ¥ë¬¸ì¥:%s\n", str);
+	printf("\n%d ë‹¨ì–´", n+1);
 }
